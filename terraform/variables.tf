@@ -1,2 +1,4 @@
-variable "cluster_role_arn" {}
-variable "subnet_ids" {}
+variable "cluster_role_arn" {
+  description = "EKS Cluster Role ARN"
+  type        = string
+}
